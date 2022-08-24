@@ -12,3 +12,21 @@ sudo apt install default-jre
 sudo snap install --classic code
 
 
+#install curl
+sudo apt install curl
+
+#install node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+source ~/.bashrc
+
+nvm install --lts
+
+corepack enable
+
+
+
+
+
+
+
